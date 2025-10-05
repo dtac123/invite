@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>Redirecting…</title>
+  <script>
+    // ← ここを実際の招待コードに変えるだけ
+    const invite = "kYbqeq7Tmt"; // 例: discord.gg/abcd1234
+    const url = `https://discord.gg/${invite}`;
+    window.location.replace(url);
+  </script>
+
+  <!-- フォールバックも同じコードにする -->
+  <meta http-equiv="refresh" content="2; url=https://discord.gg/abcd1234" />
+</head>
+<body>
+  <p>Discordに移動します。自動で移動しない場合は <a href="https://discord.gg/abcd1234">こちら</a> をクリックしてください。</p>
+</body>
+</html>
